@@ -1,3 +1,22 @@
-body {
+nav {
+  list-style-type: none;
+  postion: fixed;
+  width: 100%;
+  background-color: gray;
+  left: 0;
+}
 
+li{
+  display: inline;
+  Float: right;
+  padding: 11px;
+}
+
+a{
+  text-decoration: none;
+  color:salmon
+}
+
+body{
+  background-color:antique white
 }
