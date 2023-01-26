@@ -70,7 +70,107 @@
     
      <img src=https://amandacooksandstyles.com/wp-content/uploads/2020/08/20200731_172333.jpg width=200>
     
+    <style>
     
+    nav {
+  list-style-type: none;
+  position: fixed;
+  width: 100vw;
+  background-color: Black;
+  left: 0;
+  top: 0;
+}
+
+.navli {
+  display: inline;
+  float: right;
+  padding: 11px;
+}
+.navli a {
+  text-decoration: none;
+  color: white;
+}
+.navli li{:hover background-color: gold;}
+
+
+body {
+  background-color: white;
+  
+}
+
+.navli{
+  float: left;
+}
+
+table, tr, th {
+  Border:solid black 1px;
+}
+
+td{
+Text-align: center;
+}
+
+table {
+  width: 25%;
+  border-collapse: collapse;
+}
+
+table, tr, th, td {
+  border: Solid seagreen 2px;
+}
+
+
+td, th {
+  text-align: center;
+  padding: 10px;}
+  
+  tr:nth-child(even) {
+  background-color: white;
+}
+
+td, th {
+  text-align: center;
+  padding: 10px;}
+  
+  tr:nth-child(odd) {
+  background-color: white;
+}
+
+
+td, th {
+  border:solid lightblue 8px;
+  
+}
+
+body {
+  background-color: white;
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+  margin-left: 24%;}
+
+h2 {
+  color: #353935;
+  text-align: center;
+  font-size: 80px;
+  letter-spacing: -4px;
+  text-shadow: 2px 2px 5px lightblue;
+}
+li{
+   font-size: 25px;
+}
+p{
+   font-size: 25px;
+}
+    
+    
+    
+    
+    
+    
+    </style>
     
     
     
