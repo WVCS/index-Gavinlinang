@@ -19,10 +19,30 @@
   <br>
   <br>
   
-      <div class="wrapper">
-      <div class="Header"> Cooking Event! </div>
-      <div class="B"> B </div>
-      <div class="C"> C </div>
+     <div class="wrapper">
+    <div class="Header"> <center> <p> Cooking Event!</p> </div> </center>
+    
+    
+    
+    
+    <div class="B">
+      <center> <p>Passes </p> </center> 
+    
+    
+    
+    
+    
+    
+    </div>
+    
+      <div class="C"> 
+        <p> Rules </p>
+           <li> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
+    <li> Wlorem </li>
+    <li> Ipsum </li>
+    <li> dolor </li>
+        </div>
         
         
       <div class="D"> 
@@ -30,12 +50,22 @@
        <img src="https://content.api.news/v3/images/bin/ed2f46a74722d6f426d58eb64e711ea6?width=1024"> </img>
         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis egestas sed tempus urna et pharetra pharetra massa massa. Neque convallis a cras semper auctor neque vitae. Sollicitudin nibh sit amet commodo nulla facilisi. Scelerisque felis imperdiet proin fermentum. Sed cras ornare arcu dui. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Nunc vel risus commodo viverra. Mattis nunc sed blandit libero volutpat sed cras ornare arcu. Dolor morbi non arcu risus. Non arcu risus quis varius quam quisque id diam. Integer quis auctor elit sed vulputate mi sit amet mauris. Vitae congue mauris rhoncus aenean. Congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Congue nisi vitae suscipit tellus. Amet purus gravida quis blandit turpis cursus in hac habitasse. Risus viverra adipiscing at in tellus integer feugiat scelerisque varius.
         
-        
         </div>
   
   
-      <div class="E"> E </div>
+      <div class="E"> 
   
+        <iframe width="600" height="500" src="https://forms.gle/94P4SLCbNiot9szUA"> </iframe>
+  
+  </div>
+  
+  
+  
+  
+  
+  
+</body>
+</html>
   
   
   
@@ -71,7 +101,7 @@
   
   
   <style>
-  nav {
+ nav {
   list-style-type: none;
   position: fixed;
   width: 100vw;
@@ -105,13 +135,13 @@ li{
 
 
 div {
-  background-color: whitw;
+  background-color: white;
   border: solid 5px gold;
   border-radius: 10px;
 }
 .wrapper {
   display: grid;
-  height: 100vh;
+  height: 160vh;
   grid-template:
     "A B C " auto
     "D E";
@@ -121,6 +151,7 @@ div {
 
 .Header {
   grid-column: 1 / 4;
+  front-size: 89px;
 }
 .B {
   grid-row: 3 / 5;
@@ -129,7 +160,7 @@ div {
 
 .D {
   grid-area: 2 / 2 / 5 / 2;
-  width:700px
+  width:1000px;
 } /* row line / column line / end row / end column */
 
 .A {
@@ -142,7 +173,17 @@ img {
 }
 
 p {
-  font-size:25px;
+  font-size:40px;
+}
+
+.E{
+  width:600px;
+  height:500px;
+  
+}
+
+.C{
+  width:700px;
 }
 
 @media only screen and (max-width:1024px){
@@ -153,6 +194,13 @@ flex-direction: column;
   body{
     background-color: black;
   }  
+  
+  div{
+     
+  }
+  
+  
+ 
 }
 
 </style>
