@@ -8,12 +8,11 @@
 </head>
 <body>
   
-   
-   <nav>
+    <nav>
       <li class="navli"> <a href="index.html"> Home </a>  </li>
-       <li class="navli"> <a href="index.html"> Schedual </a>  </li>
-       <li class="navli"> <a href="index.html"> Information </a>  </li>
-      <li class="navli"> <a href="index.html"> Rules </a>  </li>
+       <li class="navli"> <a href="https://wvcs.github.io/index-Gavinlinang/Convince/convince.html"> Convince project </a>  </li>
+       <li class="navli"> <a href="https://wvcs.github.io/index-Gavinlinang/noun.html"> Noun Project </a>  </li>
+      <li class="navli"> <a href="https://wvcs.github.io/index-Gavinlinang/food/food.html"> Food Project (terrible) </a>  </li>
     </nav>
   
   <br>
@@ -64,6 +63,11 @@
   
   </div>
   
+  
+  
+  
+  
+  
 </body>
 </html>
   
@@ -101,7 +105,7 @@
   
   
   <style>
- nav {
+nav {
   list-style-type: none;
   position: fixed;
   width: 100vw;
@@ -112,6 +116,7 @@
 
 body{
   background-color:antiquewhite;
+  position:flex;
 }
 
 li{
@@ -147,6 +152,8 @@ div {
     "D E";
   grid-row-gap: 30px;
   grid-column-gap: 20px;
+  postion: relative;
+  
 }
 
 .Header {
@@ -155,12 +162,13 @@ div {
 }
 .B {
   grid-row: 3 / 5;
-  height:100
+  height:300px;
 }
 
 .D {
   grid-area: 2 / 2 / 5 / 2;
   width:1000px;
+  height:800px;
 } /* row line / column line / end row / end column */
 
 .A {
@@ -173,7 +181,7 @@ img {
 }
 
 p {
-  font-size:40px;
+  font-size:33px;
 }
 
 .E{
@@ -188,21 +196,26 @@ p {
 
 @media only screen and (max-width:1024px){
    .wrapper{
-flex-direction: column;
-     background-color:white;
+      flex-direction: column;
+     background-color:black;
+     display:flex;
+     height:323vh
   }
   body{
     background-color: black;
   }  
   
   div{
-     
+      flex-direction: column;
   }
-  
-  
+  .D{
+    width:656px;
+  }
+  .C{
+    width:656px;
+  } 
  
 }
-
 </style>
   
   
