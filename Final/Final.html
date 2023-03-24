@@ -1,1 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+   <nav>
+      <li class="navli"> <a href="index.html"> Home </a>  </li>
+       <li class="navli"> <a href="https://wvcs.github.io/index-Gavinlinang/Convince/convince.html"> Convince project </a>  </li>
+       <li class="navli"> <a href="https://wvcs.github.io/index-Gavinlinang/noun.html"> Noun Project </a>  </li>
+      <li class="navli"> <a href="https://wvcs.github.io/index-Gavinlinang/food/food.html"> Food Project (terrible) </a>  </li>
+    </nav>
+  
+  <br>
+  <br>
+  <br>
+  <br>
+  
+  <div class="wrapper">
+    <div class="Header"> <center> <p> Web Design Band</p> </div> </center>
+    
+    
+    
+    
+    <div class="B">
+      <center> <p> Prices  </p> </center> 
+     <li> Regular Seating-30$ </li>
+    <li> Vip Seats-50$</li>
+    <li> Meet & Greet-100$</li>
+      <li>Beverages-2$ </li>
+      <li> Food 10-20$ </li>
+    
+    
+    
+    
+    </div>
+    
+      <div class="C"> 
+        <center>  <p> Band Players </p> </center>
+           <li> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
+    <li> Wlorem </li>
+    <li> Ipsum </li>
+    <li> dolor </li>
+        </div>
+        
+        
+      <div class="D"> 
+        
+       <img src=""> </img>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis egestas sed tempus urna et pharetra pharetra massa massa. Neque convallis a cras semper auctor neque vitae. Sollicitudin nibh sit amet commodo nulla facilisi. Scelerisque felis imperdiet proin fermentum. Sed cras ornare arcu dui. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Nunc vel risus commodo viverra. Mattis nunc sed blandit libero volutpat sed cras ornare arcu. Dolor morbi non arcu risus. Non arcu risus quis varius quam quisque id diam. Integer quis auctor elit sed vulputate mi sit amet mauris. Vitae congue mauris rhoncus aenean. Congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Congue nisi vitae suscipit tellus. Amet purus gravida quis blandit turpis cursus in hac habitasse. Risus viverra adipiscing at in tellus integer feugiat scelerisque varius.
+        
+        </div>
+  
+  
+      <div class="E"> 
+  
+        <center> <p> Mailing List </p> </center>
+        
+        <iframe width="600" height="500" src="https://forms.gle/51UoKdU7FEbfTmNE7"> </iframe>
+  
+  
+  
+  
+  </div>
+  
+  <style>
+    nav {
+  list-style-type: none;
+  position: fixed;
+  width: 100vw;
+  background-color: Black;
+  left: 0;
+  top: 0;
+}
 
+body{
+  background-color:antiquewhite;
+  position:flex;
+}
+
+li{
+   font-size: 25px;
+}
+
+.navli {
+  display: inline;
+  float: left;
+  padding: 11px;
+}
+.navli a {
+  text-decoration: none;
+  color: white;
+}
+.navli li{:hover background-color: gold;}
+
+
+
+
+
+
+div {
+  background-color: white;
+  border: solid 5px gold;
+  border-radius: 10px;
+}
+.wrapper {
+  display: grid;
+  height: 160vh;
+  grid-template:
+    "A B C " auto
+    "D E";
+  grid-row-gap: 30px;
+  grid-column-gap: 20px;
+  postion: relative;
+  
+}
+
+.Header {
+  grid-column: 1 / 4;
+  front-size: 89px;
+}
+.B {
+  grid-row: 3 / 5;
+  height:300px;
+}
+
+.D {
+  grid-area: 2 / 2 / 5 / 2;
+  width:1000px;
+  height:800px;
+} /* row line / column line / end row / end column */
+
+.A {
+  height:100vh;
+  width: 20vh;
+}
+
+img {
+  width:400px
+}
+
+p {
+  font-size:33px;
+}
+
+.E{
+  width:600px;
+  height:610px;
+  
+}
+
+.C{
+  width:700px;
+}
+
+@media only screen and (max-width:1024px){
+   .wrapper{
+      flex-direction: column;
+     background-color:black;
+     display:flex;
+     height:323vh
+  }
+  body{
+    background-color: black;
+  }  
+  
+  div{
+      flex-direction: column;
+  }
+  .D{
+    width:656px;
+  }
+  .C{
+    width:656px;
+  } 
+ 
+}
+  </style>
+  
+  
+  
+  
+</body>
+</html>
