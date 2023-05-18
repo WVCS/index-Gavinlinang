@@ -15,8 +15,8 @@
        <li class="navli"> <a href="https://wvcs.github.io/index-Gavinlinang/Convince/convince.html"> Convince project </a>  </li>
        <li class="navli"> <a href="https://wvcs.github.io/index-Gavinlinang/noun.html"> Noun Project </a>  </li>
      
+     <li class="navli"> <a href=""> Commonality </a> </li>
      <li class="navli"> <a href=""> DSU </a> </li>
-     <li class="navli"> <a href=""> Return </a> </li>
     </nav>
   
   <br>
@@ -38,24 +38,145 @@
     <div class="Header"> 
       <br>
       
-      <center> <p> Buy N Cook check out area </p> 
+      <center> <p> Buy N Cook </p> 
         <p> "The store where you can buy groceries and cook them in the same area" - kay i think. </p>
         
         </div> </center>
     
-     <div class="D"> 
+    
+    
+    
+    <div class="B">
+      <center> <p> General store  </p> </center> 
+      
+      
+      <li> Exquisite-49.99$---------Dairy items 5.99$ each </li> 
+    <li> Deluxe-24.99$--------Any meat items 13.99$ per pound</li>
+    <li>Regular Stove-9.99$------Any liquids 10.99$ per bottle 2.99$ for drinks</li>
+      <li>Pastry ------ Spices 5.99$ per 125 ml </li>
+      <li> Food 10-20$------- Fruits and vegetables 4.99$ each </li>
+      
+      
+    
+    
+    
+    
+    </div>
+    
+      <div class="C"> 
+        <center>  <p> Top 5 Meals </p> </center>
+        
+  
+  <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 5</div>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShUAL2LWG-KGoBMiCR0g2EH9RL2sQeMkC8vkiz1PUZAdAN_dxJJBv-73iGA3tvfQEVTrk:https://whisperofyum.com/wp-content/uploads/2020/12/filipino-pork-adobo-500x500.jpg&usqp=CAU" style="width:100%">
+    <div class="text">Adobo With rice</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 5</div>
+    <img src="https://thecozycook.com/wp-content/uploads/2017/10/French-Onion-Soup-Recipe-.jpg" style="width:100%">
+    <div class="text"> French onion soup</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7-3iRLnoxWr8_dBvkN0vxdP9sGO1BsXcA5Q:https://tatyanaseverydayfood.com/wp-content/uploads/2019/03/Smoked-Salmon-Eggs-Benedict-recipe.jpg&usqp=CAU" style="width:100%">
+    <div class="text"> Eggs benedict </div>
+  </div>
+  
+    <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src="https://www.stefanofaita.com/wp-content/uploads/2022/04/dsc07673.jpg" style="width:100%">
+    <div class="text">Buratta with tomatoes and toast</div>
+  </div>
+  
+      <div class="mySlides fade">
+    <div class="numbertext">5 / 5</div>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg3lGKHYLn2EixLkkBtZCo_mBE9QIprMcORA:https://popmenucloud.com/cdn-cgi/image/width%253D1200%252Cheight%253D1200%252Cfit%253Dscale-down%252Cformat%253Dauto%252Cquality%253D60/uvtiohse/7349876c-592e-4ffe-9160-a932b5688ef7&usqp=CAU">
+    <div class="text">Fish And chips</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+</div>
+  
+  
+  <script>
+  let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+} 
+  </script>
+        
+           <li> 1.Adobo with Rice. </li>
+    <li>2. French Onion Soup </li>
+    <li>3. Eggs Royale </li>
+    <li>4. Burratta on toast with tomatoes </li>
+    <li>5. Fish And Chips
+        </div>
+        
+        
+      <div class="D"> 
         <center> <p> Information of FoodLand </p> </center>
        <img src=""> </img>
     
     <br>
     
     
-        <p2> If you are hungry and there arent any places to eat near you come to FoodLand!. Food land is a place where you can explore the many restraunts inside of it. You can search for your favorite place to eat or explore the park and see all kinds of diffrent meals.
+        <p2> If you are hungry and there arent any places to eat near you come to FoodLand!. Food land is a place where you can explore the many restraunts inside of it. You can search for your favorite place to eat or explore the park and see all kinds of diffrent meals. You also have the option to try new food with our store option to give you a random meal already made. We have 3 diffrent classes of stoves Regular being the cheapest, Deluxe, and exquisite being the most expensive. If you also pay 1000$ every 2 months then you can come and go into the store as you please and cook anything.
     </p2>
+    <center> <p> Ingredient store </p> </center>
+      <li>Dairy items 5.99$ each </li> 
+    <li>Any meat items 13.99$ per pound</li>
+    <li>Any liquids 10.99$ per bottle 2.99$ for drinks------Checkout to the right-------></li>
+      <li>Spices 5.99$ per 125 ml </li>
+      <li>Fruits and vegetables 4.99$ each </li>
+    <li> Pastry 6.99$ each </li>
+    <li> Random Premade meals 15.99$ <li>
         </div>
   
   
-      <div class="E"> 
+    <div class="E"> 
   
         <center> <p> Checkout </p> </center>
         
@@ -66,12 +187,12 @@
   </center>
         <form onsubmit="alert('Thanks for completeing your order your total is 1000000.99$.')">
   <label for="fname">First name & last name:</label>
-  <input type="text" id="fname" name="fname" value="John"><br>
+  <input type="text" id="fname" name="fname" value="Ex: Jhon Doe"><br>
   <label for="lname">creditcard info:</label>
-  <input type="text" id="lname" name="lname" value="Doe"><br>
+  <input type="text" id="lname" name="lname" value="Ex: 1234567890"><br>
           <br>
   <label for="fname">Any other ingreidents you ordered?:</label>
-  <input type="text" id="fname" name="fname" value="John"><br>
+  <input type="text" id="fname" name="fname" value=" Ex: Cheese"><br>
   <input type="submit" value="Submit">
 </form> 
         
@@ -80,7 +201,6 @@
   
    <button onclick="topFunction()"
    id="topBtn"> top </button>
-  
   <style>
     nav {
   list-style-type: none;
@@ -163,7 +283,7 @@ p {
 }
 
 p2{
-  Font-size:33px;
+  Font-size:28px;
 }
 
 .E{
@@ -345,7 +465,114 @@ p2{
   
   
 }
-  </style> 
+  </style>
   
-  </html>
-  </body>
+  <script>
+    window.onscroll = function() {hidefunction();}
+                              
+  function hidefunction() {
+    if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120  ){
+            document.getElementById("topBtn").style.display="block";
+  }else {
+      document.getElementById("topBtn").style.display="none";
+    }
+  }   
+                              
+                              
+  function topFunction () {
+    document.body.scrollTop = 0 ;
+    document.documentElement.scrollTop = 0 ;
+  }
+
+function autocomplete(inp, arr) {
+
+  var currentFocus;
+
+  inp.addEventListener("input", function(e) {
+      var a, b, i, val = this.value;
+
+      closeAllLists();
+      if (!val) { return false;}
+      currentFocus = -1;
+
+      a = document.createElement("DIV");
+      a.setAttribute("id", this.id + "autocomplete-list");
+      a.setAttribute("class", "autocomplete-items");
+
+      this.parentNode.appendChild(a);
+
+      for (i = 0; i < arr.length; i++) {
+
+        if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+
+          b = document.createElement("DIV");
+
+          b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
+          b.innerHTML += arr[i].substr(val.length);
+
+          b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+
+          b.addEventListener("click", function(e) {
+
+              inp.value = this.getElementsByTagName("input")[0].value;
+
+              closeAllLists();
+          });
+          a.appendChild(b);
+        }
+      }
+  });
+
+  inp.addEventListener("keydown", function(e) {
+      var x = document.getElementById(this.id + "autocomplete-list");
+      if (x) x = x.getElementsByTagName("div");
+      if (e.keyCode == 40) {
+        currentFocus++;
+        addActive(x);
+      } else if (e.keyCode == 38) { //up
+        currentFocus--;
+        addActive(x);
+      } else if (e.keyCode == 13) {
+        e.preventDefault();
+        if (currentFocus > -1) {
+          if (x) x[currentFocus].click();
+        }
+      }
+  });
+  function addActive(x) {
+    if (!x) return false;
+    removeActive(x);
+    if (currentFocus >= x.length) currentFocus = 0;
+    if (currentFocus < 0) currentFocus = (x.length - 1);
+    x[currentFocus].classList.add("autocomplete-active");
+  }
+  function removeActive(x) {
+    for (var i = 0; i < x.length; i++) {
+      x[i].classList.remove("autocomplete-active");
+    }
+  }
+  function closeAllLists(elmnt) {
+
+    var x = document.getElementsByClassName("autocomplete-items");
+    for (var i = 0; i < x.length; i++) {
+      if (elmnt != x[i] && elmnt != inp) {
+        x[i].parentNode.removeChild(x[i]);
+      }
+    }
+  }
+
+  document.addEventListener("click", function (e) {
+      closeAllLists(e.target);
+  });
+}
+
+var autoAnswers = ["Recepies", "Ingredients", "Shoes", "4", "5", "6", "7", "8", "9", "10", "11", "12",];
+
+autocomplete(document.getElementById("myInput"), autoAnswers);
+  </script>
+  
+  
+  
+  
+</body>
+</html>
